@@ -102,6 +102,11 @@ img {
     color: #7fa5d1;
 }
 
+.copyright{
+    text-transform: capitalize;
+    color: rgba(218, 218, 218, 0.3);
+}
+
 @keyframes animation-slide {
     0% {
         transform: translateX(5px);
