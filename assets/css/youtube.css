@@ -1,0 +1,76 @@
+.container_video {
+    width: auto;
+    height: auto;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    padding: 0;
+    margin: 0;
+
+    z-index: -2;
+}
+
+.container_video iframe {
+    min-width: 100%;
+    min-height: 100%;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    object-fit: cover;
+
+    user-select: none;
+    -webkit-user-select: none;
+
+    z-index: -2;
+}
+
+.container_video:after {
+    content: '';
+    
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: rgba(0, 0, 0, 0.603);
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .container_video iframe {
+        height: 56.25vw;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .container_video iframe {
+        width: 177.78vh;
+    }
+}
+
+@media (max-width: 1100px) {
+    .container_video iframe {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        object-fit: auto;
+
+        transform: translate(-50%, -50%);
+    }
+}
