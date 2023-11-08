@@ -149,7 +149,7 @@ footer .secret {
 footer .development {
     position: relative;
 
-    color: #886ce4;
+    color: #60875b;
     font-weight: 600;
 
     text-decoration: none;
@@ -166,7 +166,7 @@ footer .development::after {
     width: 103%;
     height: 2px;
 
-    background: #886ce4;
+    background: #60875b;
 
     transition: .3s;
 }
