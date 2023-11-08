@@ -131,7 +131,7 @@ footer {
     font-weight: 500;
 
     border-radius: 10px;
-    background: linear-gradient(90deg, #363b408e, #ffffff8e);
+    background: linear-gradient(90deg, #363b408e, #898c8f8e);
 
     padding: 10px 15px;
 
@@ -149,7 +149,7 @@ footer .secret {
 footer .development {
     position: relative;
 
-    color: #ffffff8e;
+    color: #898c8f8e;
     font-weight: 600;
 
     text-decoration: none;
@@ -166,7 +166,7 @@ footer .development::after {
     width: 103%;
     height: 2px;
 
-    background: #ffffff8e;
+    background: #898c8f8e;
 
     transition: .3s;
 }
