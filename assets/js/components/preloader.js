@@ -22,7 +22,7 @@ const preloaderHideAnim = _ => {
 
     if (i <= 1) {
         player.playVideo();
-        setTimeout(_ => [infoImg, infoTitle, infoContent].forEach(el => el.classList.add('show')), 1500);
+        setTimeout(_ => [infoImg, infoTitle, infoContent].forEach(el => el.classList.add('show')), 1);
     };
 };
 
@@ -34,7 +34,7 @@ const preloaderItemAnimationLoaded = _ => {
 const preloaderItemAnimationClick = _ => {
     [preloader, preloaderItem].forEach(el => el.classList.add('clicked'));
     playerMusic.play();
-    setTimeout(_ => preloaderHideInterval = setInterval(preloaderHideAnim, 10), 7000);
+    setTimeout(_ => preloaderHideInterval = setInterval(preloaderHideAnim, 10), 1);
 };
 
 // Event Listeners
