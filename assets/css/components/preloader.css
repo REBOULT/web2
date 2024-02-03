@@ -1,4 +1,4 @@
-.preloader {
+/* .preloader {
     width: 100%;
     height: 100%;
 
@@ -20,7 +20,7 @@
     animation: background-shake 1s infinite;
 
     transition: 1.3s;
-}
+} */
 
 .preloader.clicked {
     background-image: none;
