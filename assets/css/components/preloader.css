@@ -1,4 +1,4 @@
-/* .preloader {
+.preloader {
     width: 100%;
     height: 100%;
 
@@ -11,16 +11,16 @@
     user-select: none;
     -webkit-user-select: none;
 
-    background-image: url(../../img/stars-background.png);
+/*     background-image: url(../../img/stars-background.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     
     background-color: #000;
 
     animation: background-shake 1s infinite;
 
     transition: 1.3s;
-} */
+} 
 
 .preloader.clicked {
     background-image: none;
