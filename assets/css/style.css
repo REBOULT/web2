@@ -9,6 +9,10 @@ body {
     font-family: 'Codec Pro';
 
     background: #212227;
+
+    src:
+        url('../fonts/CodecPro-Light.woff22') format('woff2'),
+        url('../fonts/CodecPro-Light.woff') format('woff');
 }
 
 img {
